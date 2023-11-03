@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&family=Hind+Siliguri:wght@300&family=Noto+Sans+Mono:wght@200&family=PT+Sans+Narrow&family=Poppins:ital,wght@1,200&family=Press+Start+2P&family=Quicksand:wght@300&family=Russo+One&family=Silkscreen&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Manrope:wght@300&family=Montserrat:wght@100&family=Noto+Sans+Warang+Citi&family=Open+Sans:wght@300&family=PT+Sans&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Manrope:wght@300&family=Montserrat:wght@100&family=Noto+Sans+Warang+Citi&family=Open+Sans:wght@300&family=PT+Sans&family=Poppins:wght@200&family=Space+Mono&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lumanosimo&family=Montserrat:wght@100&family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lumanosimo&family=Montserrat:wght@100&family=Press+Start+2P&family=Roboto:wght@300&family=UnifrakturCook:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@700&family=Bokor&family=Lato:wght@100&family=Lumanosimo&family=Montserrat:wght@100&family=Press+Start+2P&family=Roboto:wght@300&family=Smythe&family=UnifrakturCook:wght@700&display=swap');
+
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans Warang Citi', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Vollkorn', serif;
+font-family: 'UnifrakturCook', serif;
+
+font-family: 'Astloch', serif;
+font-family: 'Bokor', serif;
+font-family: 'Smythe', serif;
+
+
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+html,body{
+	height: 100%;
+
+	/*background-color:  #0d0924;*/
+	
+}
+.menu{
+	z-index: 10;
+	position: fixed;
+	top: -10px;
+	width: 100%;
+	max-height: 80px;
+	height: 100%;
+	padding: 10px;
+	display: flex;
+	background-color: black;
+}
+.singleimg {
+	width: 100%;
+	height: 40px;
+}
+.singleimg img{
+	width: 100%;
+	max-width: 55px;
+	height: 100%;
+}
+.container_img{
+	cursor: pointer;	
+	width: 70%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+.container_menu_itens{
+	/*aqui no mediascreen esse width tem que ir pra uns 50%*/
+	width: 30%; 
+	height: 100%;
+	padding: 20px;
+	display: flex;
+
+}
+.item_menu_single {
+	
+	width: 33%;
+	text-align: center;
+	margin: 0 auto;
+	height: 40px;
+}
+.item_menu_single img{
+	width: 100%;
+	max-width: 35px;
+	height: 100%;
+}
+
+.container_img_titulo1{
+
+	width: 100%;
+	height: 100%;
+
+	max-height: 30px;
+
+	margin: 0 auto;
+
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 14%, rgba(255,255,255,0.8374575660342262) 83%);
+
+
+}
+.container_img_titulo{
+
+	width: 100%;
+	height: 100%;
+
+	max-height: 360px;
+
+	margin: 0 auto;
+
+	margin-top: 70px;
+	background-image: url('tituloimg2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 45%;
+
+}
+.container_img_titulo2{
+
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	max-height: 240px;
+
+	margin: 0 auto;
+
+	background-image: url('tituloimg2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 25%;
+
+}
+.titulo{
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+	padding-top: 100px;
+
+}
+.titulo p{
+	line-height: 40px;
+	font-size: 30px;
+	
+	font-family: 'Bokor', serif;
+
+
+}
+.container_tatos{
+	
+	margin: 0 auto;
+	width: 100%;
+background-color: rgba(122, 122, 122, 0.15);
+	padding: 20px;
+
+}
+.tatos_titulo{
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	padding: 20px;
+	padding-top: 50px;
+
+}
+.tatos_titulo p {
+  line-height: 40px;
+  color: black;
+  font-size: 32px;
+ font-weight: bold;
+/* Adiciona uma transição suave para animações */
+}
+
+.container_tatos_imgs{
+	
+
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+		margin-top: 40px;
+
+}
+.tatos_img_singles{
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 100%;
+	height: 390px;
+	  border-radius:10px; 
+	background-color: black;
+}
+
+
+.titulo_imgs_single{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+
+
+.titulo_imgs_single a{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+
+}
+
+.titulo_imgs_single a:hover{
+	transition: .1s;
+	color: purple;
+	
+
+}
+.tatos_img{
+	margin: 0 auto;
+	width: 100%;
+	max-height: 400px;
+	height: 90%;
+}
+
+.tatos_img img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.container_local{
+	
+	margin: 0 auto;
+	width: 100%;
+	background-color: rgba(122, 122, 122, 0.15);
+	padding: 20px;
+}
+.local_titulo{
+	margin: 0 auto;
+	margin-top: 30px;
+text-align: center;
+	font-size: 28px;
+	padding-top: 40px;
+}
+.local_texto{
+	margin: 0 auto;
+text-align: center;	
+			padding-top: 0px;
+			margin-top: 30px;
+	font-weight: bold;
+}
+.local_link{
+
+	margin: 0 auto;
+		margin-top: 2px;
+	text-align: center;
+		padding-top: 20px;
+}
+
+.local_link a{
+	color: purple;
+	font-size: 20px;
+		font-weight: bold;
+	text-decoration: none;
+}
+.localfoto{
+	margin: 0 auto;
+text-align: center;
+	margin-top: 10px;
+	width: 300px;
+	height: 600px;
+}
+.localfoto video{
+	width: 100%;
+	height: 100%;
+}
+
+
+.container_ava{
+	margin: 0 auto;
+	width: 100%;
+	background-color: rgba(122, 122, 122, 0.15);
+	padding: 20px;
+}
+.titulo_ava{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.titulo_ava {
+	font-size: 25px;
+		margin: 0 auto;
+	margin-top: 30px;
+text-align: center;
+margin-bottom: 40px;
+
+}
+.avaliacao_single{
+	width: 90%;
+	margin: 0 auto;
+	height: 80px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: black;
+	margin-top: 20px;
+}
+.avaliacao_single img{
+	width: 100%;
+	height: 100%;
+}
+.container_profissional{
+		margin: 0 auto;
+	width: 100%;
+	background-color: rgba(122, 122, 122, 0.15);
+	padding: 20px;
+}
+
+.profissa_titulo{
+	text-align: center;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.profissa_titulo2{
+		text-align: center;
+		margin-top: 10px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.profissa_titulo2 a{
+	color: blue;
+	text-decoration: none;
+}
+.profisse_texto{
+	margin-top: 20px;
+font-weight: bold;
+	font-size: 18px;
+}
+
+.container_profissa_img{
+	display: flex;
+	width: 100%;
+}
+
+.profissa_img{
+		margin-top: 20px;
+	width: 50%;
+	height: 200px;
+}
+.profissa_img img{
+	width: 100%;
+	height: 100%;
+}	
+
+.container_contato{
+			margin: 0 auto;
+	width: 100%;
+	background-color: rgba(122, 122, 122, 0.15);
+	padding: 20px;
+}
+.titulo_contato{
+	margin: 0 auto;
+
+	text-align: center;
+		margin-top: 100px;
+font-weight: bold;
+	font-size: 28px;
+}
+.texto_contato{
+	font-weight: bold;
+	margin-top: 10px;
+	text-align: left;
+}
+.textarea{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.textarea input{
+	border: 1px solid black;
+		font-weight: bold;
+	margin-top: 10px;
+	width: 100%;
+	padding: 10px;
+border-radius: 10px;
+}
+.btn{
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+	font-weight: bold;
+	height: 50px;
+width: 80%;
+	padding: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+	border: 5px double white;
+	background-color: #17bf30;
+	color: white;
+	margin-bottom: 100px;
+
+}
+
+.fot{
+	padding: 10px;
+	margin: 0 auto;background-color: #ccc;
+	text-align: center;
+}
+
+.bgL{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: 'PT Sans', sans-serif;
+	z-index: 11;
+	width: 100%;
+	height: 5800px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.bgconteudoL{
+
+	left: 0;
+	top: 0;
+	font-family: 'PT Sans', sans-serif;
+	position: fixed;	
+	width: 200px;
+	height: 100%;
+	background-color: grey;
+
+}
+
+.bgconteudoL ul li {
+	padding-top: 30px;
+	padding-left: 20px;
+
+}
+
+.bgconteudoL ul li a{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+
+.bgconteudoL ul li a:hover{
+	color: white;
+	transition: .2s;
+	
+}
+
+
+
+
+
+
+/*-----------------------------SLIDE-----------------------*/
+#slideshow {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  background: #ccc;
+}
+
+#slideshow .slides-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+#slideshow .slide {
+  border: 1px solid black;
+  flex: 0 0 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  text-align: center;
+}
+
+#slideshow .slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#slideshow .slide .caption {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#slideshow .prev,
+#slideshow .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  cursor: pointer;
+}
+
+#slideshow .prev {
+  left: 5px;
+}
+
+#slideshow .next {
+  right: 5px;
+}
+/*-----------------------------SLIDE FIM-----------------------*/
+
+
+
+
+
+
+
+
+/*MEDIA SCREEN*/
+
+/*
+	ANOTAÇÕES
+
+	- aqui no mediascreen esse width tem que ir pra uns 50%
+	-
+	-
+	-
+
+*/
+
+
+@media screen and (max-width: 700px){
+
+	.container_img{
+	width: 50%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	
+}
+	.container_menu_itens{
+	/*aqui no mediascreen esse width tem que ir pra uns 50%*/
+	width: 60%; 
+	height: 100%;
+	padding: 20px;
+	display: flex;
+
+	}
+}
